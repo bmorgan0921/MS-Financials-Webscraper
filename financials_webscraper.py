@@ -5,8 +5,6 @@ from bs4 import BeautifulSoup
 import html5lib
 import pandas as pd
 
-pd.set_option('display.max_columns', 5)
-
 class MorningStarFinancials:
     def __init__(self, ticker, start_date = None, end_date = None):
         '''
