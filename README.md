@@ -1,10 +1,12 @@
 # MS-Financials-Webscraper
 
-### Description:
-financials_webscraper.py gives the user the ability to webscrape for the financials of a company from Morningstar's website. 
+## Description:
 
-### Execution:
+financials_webscraper.py gives the user the ability to webscrape for the financials of a company from Morningstar's website.
 
+Returns from this example link: [AAPL Financials](https://financials.morningstar.com/ratios/r.html?t=0P000000GY&culture=en&platform=sal)
+
+## Execution:
 ```
 AAPL = MorningStarFinancials(ticker = 'AAPL').Financials()
 print(AAPL)
