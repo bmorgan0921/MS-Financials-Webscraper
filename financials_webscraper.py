@@ -98,6 +98,7 @@ class MorningStarFinancials:
         df = pd.DataFrame.from_dict(temp_dict).set_index('Dates')
         df.index = pd.to_datetime(df.index)
         df = df.reindex(pd.date_range(df.index[0], df.index[-1]), method = 'ffill')
+        df = df[:-1]
         try: 
             self.__financials = df[self.start_date:self.end_date]
         except:
