@@ -2,9 +2,9 @@
 
 ## Description:
 
-financials_webscraper.py gives the user the ability to webscrape for the financials of a company from Morningstar's website.
+financials_webscraper.py gives the user the ability to webscrape for the financials of a company from Morningstar's website. This was made pretty quickly as an addition to a previous project that was in need of a list of financials. Has not been tested with all companys. The script will return financials for companies in the Dow Jones, S&P 100, and S&P 500. Keep in mind that these are annual numbers from Morningstar's website, not quarterly. 
 
-Returns from this example link: [AAPL Financials](https://financials.morningstar.com/ratios/r.html?t=0P000000GY&culture=en&platform=sal)
+Returns financials from this (example) link: [AAPL Financials](https://financials.morningstar.com/ratios/r.html?t=0P000000GY&culture=en&platform=sal)
 
 ## Execution:
 ```
